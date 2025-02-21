@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lecteur Audio - Hallucination</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .player-container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin-top: 20px;
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        audio {
+            width: 100%;
+            margin-top: 10px;
+        }
+        .description {
+            margin-top: 20px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="player-container">
+        <h1>Hallucination</h1>
+        <audio controls>
+            <source src="Hallucination.wav" type="audio/wav">
+            Votre navigateur ne supporte pas l'élément audio.
+        </audio>
+        <p class="description">
+            Utilisez les contrôles ci-dessus pour lire, mettre en pause ou ajuster le volume de l'audio.
+        </p>
+    </div>
+</body>
+</html>
